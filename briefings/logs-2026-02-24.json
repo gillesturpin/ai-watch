@@ -1,0 +1,45 @@
+{
+  "date": "2026-02-24",
+  "sources_status": {
+    "huggingface": "ok",
+    "github": "ok",
+    "simon": "ok"
+  },
+  "enrichment": [
+    {
+      "item_title": "obra/superpowers",
+      "source": "github",
+      "tools_called": [
+        "get_github_repo"
+      ],
+      "reason": "get_github_repo({'owner': 'obra', 'repo': 'superpowers'})"
+    },
+    {
+      "item_title": "huggingface/skills",
+      "source": "github",
+      "tools_called": [
+        "get_github_repo"
+      ],
+      "reason": "get_github_repo({'owner': 'huggingface', 'repo': 'skills'})"
+    },
+    {
+      "item_title": "Ladybird adopts Rust, with help from AI",
+      "source": "simon",
+      "tools_called": [
+        "fetch_url"
+      ],
+      "reason": "fetch_url({'url': 'https://simonwillison.net/2026/Feb/23/ladybird-adopts-rust/#atom-everything'})"
+    },
+    {
+      "item_title": "First run the tests",
+      "source": "simon",
+      "tools_called": [
+        "fetch_url"
+      ],
+      "reason": "fetch_url({'url': 'https://simonwillison.net/guides/agentic-engineering-patterns/first-run-the-tests/#atom-everything'})"
+    }
+  ],
+  "llm_calls": 2,
+  "total_tokens": 11765,
+  "duration_seconds": 60.33055663108826
+}
