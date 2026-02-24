@@ -1,4 +1,4 @@
-# Paper Pulse — Agent de veille IA
+# AI Watch — Agent de veille IA
 
 ## Ce que c'est
 

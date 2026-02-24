@@ -1,4 +1,4 @@
-# 📰 Paper Pulse — Agent de veille IA
+# 📰 AI Watch — Agent de veille IA
 
 Agent autonome qui produit un briefing quotidien à partir de 3 sources : HuggingFace Papers, GitHub Trending, et Simon Willison.
 
@@ -7,8 +7,8 @@ Tourne chaque matin via GitHub Actions. Filtre, enrichit, résume. Pas un notebo
 ## Quick Start
 
 ```bash
-git clone https://github.com/youruser/paper-pulse.git
-cd paper-pulse
+git clone https://github.com/youruser/ai-watch.git
+cd ai-watch
 python -m venv venv && source venv/bin/activate
 pip install -e ".[dev]"
 cp .env.example .env
