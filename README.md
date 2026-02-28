@@ -1,5 +1,7 @@
 # AI Watch
 
+**Live site: https://gillesturpin.github.io/ai-watch/**
+
 Autonomous agent that produces a daily AI briefing from 3 sources: HuggingFace Papers, GitHub Trending, and Simon Willison.
 
 Runs every morning via GitHub Actions. Fetches, filters, enriches, summarizes. Not a one-shot notebook — a system that produces a fresh result every day.
