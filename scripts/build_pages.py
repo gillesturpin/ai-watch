@@ -63,7 +63,7 @@ article a { color: var(--accent); }
 def html_page(title: str, body: str, back: bool = False) -> str:
     back_link = '<a class="back" href="./">&larr; All briefings</a>' if back else ""
     return f"""<!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -92,11 +92,11 @@ def parse_date_from_filename(name: str) -> datetime | None:
     return None
 
 
-def format_date_fr(dt: datetime) -> str:
-    days = ["lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi", "dimanche"]
-    months = ["", "janvier", "février", "mars", "avril", "mai", "juin",
-              "juillet", "août", "septembre", "octobre", "novembre", "décembre"]
-    return f"{days[dt.weekday()]} {dt.day} {months[dt.month]} {dt.year}"
+def format_date_en(dt: datetime) -> str:
+    days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+    months = ["", "January", "February", "March", "April", "May", "June",
+              "July", "August", "September", "October", "November", "December"]
+    return f"{days[dt.weekday()]}, {months[dt.month]} {dt.day}, {dt.year}"
 
 
 def count_items(md_text: str) -> int:
@@ -140,23 +140,23 @@ def build():
     items_html = ""
     for b in briefings:
         slug = b["date"].strftime("%Y-%m-%d")
-        nice_date = format_date_fr(b["date"])
+        nice_date = format_date_en(b["date"])
         n_items = count_items(b["text"])
         items_html += f"""<li><a href="{slug}.html">
             <div class="briefing-date">{nice_date}</div>
-            <div class="briefing-sub">{n_items} items couverts</div>
+            <div class="briefing-sub">{n_items} items covered</div>
         </a></li>\n"""
 
     body = f"""<header>
     <h1><span>AI Watch</span></h1>
-    <p>Veille IA quotidienne automatisée — HuggingFace Papers, GitHub Trending, Simon Willison</p>
-    <div class="status">Dernier briefing : {latest}</div>
+    <p>Automated daily AI briefing — HuggingFace Papers, GitHub Trending, Simon Willison</p>
+    <div class="status">Latest briefing: {latest}</div>
 </header>
 <ul class="briefing-list">
 {items_html}
 </ul>"""
 
-    index = html_page(title="AI Watch — Veille IA quotidienne", body=body)
+    index = html_page(title="AI Watch — Daily AI Briefing", body=body)
     (OUTPUT_DIR / "index.html").write_text(index)
 
     print(f"Built {len(briefings)} briefing(s) → _site/")

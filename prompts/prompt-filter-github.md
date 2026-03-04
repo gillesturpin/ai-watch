@@ -1,24 +1,24 @@
-Tu reçois une liste de repos GitHub trending. Pour chaque repo, réponds `true` ou `false` : est-ce que ce repo est lié à l'IA, au machine learning, ou aux LLMs ?
+You receive a list of GitHub trending repos. For each repo, answer `true` or `false`: is this repo related to AI, machine learning, or LLMs?
 
-## Critères
+## Criteria
 
-Lié à l'IA (`true`) :
-- Modèles, frameworks, outils ML/DL
-- Agents IA, assistants, chatbots
+AI-related (`true`):
+- Models, frameworks, ML/DL tools
+- AI agents, assistants, chatbots
 - Prompts, prompt engineering, system prompts
-- RAG, embeddings, bases vectorielles
-- Fine-tuning, entraînement, évaluation de modèles
-- Wrappers/UI pour des outils IA (ex: interface pour Claude Code)
-- Données/datasets pour ML
+- RAG, embeddings, vector databases
+- Fine-tuning, training, model evaluation
+- Wrappers/UIs for AI tools (e.g., interface for Claude Code)
+- ML datasets
 
-Pas lié à l'IA (`false`) :
-- Outils réseau, VPN, proxy
-- Jeux, streaming, médias
-- Infrastructure générale (sauf si spécifiquement pour ML)
-- Listes awesome non-IA
-- DevOps/CI/CD généraliste
+Not AI-related (`false`):
+- Networking tools, VPN, proxy
+- Games, streaming, media
+- General infrastructure (unless specifically for ML)
+- Non-AI awesome lists
+- General-purpose DevOps/CI/CD
 
-## Format d'entrée
+## Input format
 
 ```json
 [
@@ -27,7 +27,7 @@ Pas lié à l'IA (`false`) :
 ]
 ```
 
-## Format de sortie
+## Output format
 
 ```json
 [
@@ -36,4 +36,4 @@ Pas lié à l'IA (`false`) :
 ]
 ```
 
-Réponds uniquement avec le JSON, rien d'autre.
+Reply with the JSON only, nothing else.

@@ -1,6 +1,6 @@
 # AI Watch
 
-**Live site: https://gillesturpin.github.io/ai-watch/**
+**Live site: https://Yatimai.github.io/ai-watch/**
 
 Autonomous agent that produces a daily AI briefing from 3 sources: HuggingFace Papers, GitHub Trending, and Simon Willison.
 
@@ -22,7 +22,7 @@ The agent decides for each item whether it needs more context:
 ## Quick Start
 
 ```bash
-git clone https://github.com/gillesturpin/ai-watch.git
+git clone https://github.com/Yatimai/ai-watch.git
 cd ai-watch
 python -m venv venv && source venv/bin/activate
 pip install -e ".[dev]"

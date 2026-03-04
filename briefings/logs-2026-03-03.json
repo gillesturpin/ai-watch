@@ -1,0 +1,45 @@
+{
+  "date": "2026-03-03",
+  "sources_status": {
+    "huggingface": "ok",
+    "github": "ok",
+    "simon": "ok"
+  },
+  "enrichment": [
+    {
+      "item_title": "{'query': 'dLLM diffusion language model'}",
+      "source": "huggingface",
+      "tools_called": [
+        "search_hf_models"
+      ],
+      "reason": "search_hf_models({'query': 'dLLM diffusion language model'})"
+    },
+    {
+      "item_title": "ruvnet/RuView",
+      "source": "github",
+      "tools_called": [
+        "get_github_repo"
+      ],
+      "reason": "get_github_repo({'owner': 'ruvnet', 'repo': 'RuView'})"
+    },
+    {
+      "item_title": "moeru-ai/airi",
+      "source": "github",
+      "tools_called": [
+        "get_github_repo"
+      ],
+      "reason": "get_github_repo({'owner': 'moeru-ai', 'repo': 'airi'})"
+    },
+    {
+      "item_title": "GIF optimization tool using WebAssembly and Gifsicle",
+      "source": "simon",
+      "tools_called": [
+        "fetch_url"
+      ],
+      "reason": "fetch_url({'url': 'https://simonwillison.net/guides/agentic-engineering-patterns/gif-optimization/#atom-everything'})"
+    }
+  ],
+  "llm_calls": 2,
+  "total_tokens": 11410,
+  "duration_seconds": 37.64537954330444
+}

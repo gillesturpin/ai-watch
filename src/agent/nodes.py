@@ -234,7 +234,7 @@ async def enrich_and_brief(state: AgentState) -> AgentState:
     if not items:
         return {
             **state,
-            "briefing_markdown": "# Veille IA\n\n⚠️ Aucun item disponible aujourd'hui.\n",
+            "briefing_markdown": "# AI Briefing\n\nNo items available today.\n",
             "enrichment_logs": [],
         }
 

@@ -1,11 +1,19 @@
 {
-  "date": "2026-02-28",
+  "date": "2026-03-01",
   "sources_status": {
     "huggingface": "ok",
     "github": "ok",
     "simon": "ok"
   },
   "enrichment": [
+    {
+      "item_title": "ruvnet/wifi-densepose",
+      "source": "github",
+      "tools_called": [
+        "get_github_repo"
+      ],
+      "reason": "get_github_repo({'owner': 'ruvnet', 'repo': 'wifi-densepose'})"
+    },
     {
       "item_title": "obra/superpowers",
       "source": "github",
@@ -15,20 +23,20 @@
       "reason": "get_github_repo({'owner': 'obra', 'repo': 'superpowers'})"
     },
     {
-      "item_title": "abhigyanpatwari/GitNexus",
+      "item_title": "moeru-ai/airi",
       "source": "github",
       "tools_called": [
         "get_github_repo"
       ],
-      "reason": "get_github_repo({'owner': 'abhigyanpatwari', 'repo': 'GitNexus'})"
+      "reason": "get_github_repo({'owner': 'moeru-ai', 'repo': 'airi'})"
     },
     {
-      "item_title": "Please, please, please stop using passkeys for encrypting user data",
+      "item_title": "Interactive explanations",
       "source": "simon",
       "tools_called": [
         "fetch_url"
       ],
-      "reason": "fetch_url({'url': 'https://simonwillison.net/2026/Feb/27/passkeys/#atom-everything'})"
+      "reason": "fetch_url({'url': 'https://simonwillison.net/guides/agentic-engineering-patterns/interactive-explanations/#atom-everything'})"
     },
     {
       "item_title": "An AI agent coding skeptic tries AI agent coding, in excessive detail",
@@ -40,6 +48,6 @@
     }
   ],
   "llm_calls": 2,
-  "total_tokens": 11746,
-  "duration_seconds": 43.91061019897461
+  "total_tokens": 13517,
+  "duration_seconds": 52.84317588806152
 }
