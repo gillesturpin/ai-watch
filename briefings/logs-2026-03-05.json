@@ -1,0 +1,69 @@
+{
+  "date": "2026-03-05",
+  "sources_status": {
+    "huggingface": "ok",
+    "github": "ok",
+    "simon": "ok"
+  },
+  "enrichment": [
+    {
+      "item_title": "{'query': 'Utopia point cloud transformer encoder'}",
+      "source": "huggingface",
+      "tools_called": [
+        "search_hf_models"
+      ],
+      "reason": "search_hf_models({'query': 'Utopia point cloud transformer encoder'})"
+    },
+    {
+      "item_title": "msitarzewski/agency-agents",
+      "source": "github",
+      "tools_called": [
+        "get_github_repo"
+      ],
+      "reason": "get_github_repo({'owner': 'msitarzewski', 'repo': 'agency-agents'})"
+    },
+    {
+      "item_title": "KeygraphHQ/shannon",
+      "source": "github",
+      "tools_called": [
+        "get_github_repo"
+      ],
+      "reason": "get_github_repo({'owner': 'KeygraphHQ', 'repo': 'shannon'})"
+    },
+    {
+      "item_title": "moeru-ai/airi",
+      "source": "github",
+      "tools_called": [
+        "get_github_repo"
+      ],
+      "reason": "get_github_repo({'owner': 'moeru-ai', 'repo': 'airi'})"
+    },
+    {
+      "item_title": "Anti-patterns: things to avoid",
+      "source": "simon",
+      "tools_called": [
+        "fetch_url"
+      ],
+      "reason": "fetch_url({'url': 'https://simonwillison.net/guides/agentic-engineering-patterns/anti-patterns/#atom-everything'})"
+    },
+    {
+      "item_title": "Something is afoot in the land of Qwen",
+      "source": "simon",
+      "tools_called": [
+        "fetch_url"
+      ],
+      "reason": "fetch_url({'url': 'https://simonwillison.net/2026/Mar/4/qwen/#atom-everything'})"
+    },
+    {
+      "item_title": "Quoting Donald Knuth",
+      "source": "simon",
+      "tools_called": [
+        "fetch_url"
+      ],
+      "reason": "fetch_url({'url': 'https://simonwillison.net/2026/Mar/3/donald-knuth/#atom-everything'})"
+    }
+  ],
+  "llm_calls": 2,
+  "total_tokens": 13168,
+  "duration_seconds": 46.80739140510559
+}
