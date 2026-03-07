@@ -1,0 +1,53 @@
+{
+  "date": "2026-03-07",
+  "sources_status": {
+    "huggingface": "ok",
+    "github": "ok",
+    "simon": "ok"
+  },
+  "enrichment": [
+    {
+      "item_title": "msitarzewski/agency-agents",
+      "source": "github",
+      "tools_called": [
+        "get_github_repo"
+      ],
+      "reason": "get_github_repo({'owner': 'msitarzewski', 'repo': 'agency-agents'})"
+    },
+    {
+      "item_title": "moeru-ai/airi",
+      "source": "github",
+      "tools_called": [
+        "get_github_repo"
+      ],
+      "reason": "get_github_repo({'owner': 'moeru-ai', 'repo': 'airi'})"
+    },
+    {
+      "item_title": "Quoting Ally Piechowski",
+      "source": "simon",
+      "tools_called": [
+        "fetch_url"
+      ],
+      "reason": "fetch_url({'url': 'https://simonwillison.net/2026/Mar/6/ally-piechowski/#atom-everything'})"
+    },
+    {
+      "item_title": "Anthropic and the Pentagon",
+      "source": "simon",
+      "tools_called": [
+        "fetch_url"
+      ],
+      "reason": "fetch_url({'url': 'https://simonwillison.net/2026/Mar/6/anthropic-and-the-pentagon/#atom-everything'})"
+    },
+    {
+      "item_title": "Agentic manual testing",
+      "source": "simon",
+      "tools_called": [
+        "fetch_url"
+      ],
+      "reason": "fetch_url({'url': 'https://simonwillison.net/guides/agentic-engineering-patterns/agentic-manual-testing/#atom-everything'})"
+    }
+  ],
+  "llm_calls": 2,
+  "total_tokens": 12429,
+  "duration_seconds": 45.19312930107117
+}
