@@ -1,0 +1,61 @@
+{
+  "date": "2026-03-10",
+  "sources_status": {
+    "huggingface": "ok",
+    "github": "ok",
+    "simon": "ok"
+  },
+  "enrichment": [
+    {
+      "item_title": "openclaw/openclaw",
+      "source": "github",
+      "tools_called": [
+        "get_github_repo"
+      ],
+      "reason": "get_github_repo({'owner': 'openclaw', 'repo': 'openclaw'})"
+    },
+    {
+      "item_title": "msitarzewski/agency-agents",
+      "source": "github",
+      "tools_called": [
+        "get_github_repo"
+      ],
+      "reason": "get_github_repo({'owner': 'msitarzewski', 'repo': 'agency-agents'})"
+    },
+    {
+      "item_title": "666ghj/MiroFish",
+      "source": "github",
+      "tools_called": [
+        "get_github_repo"
+      ],
+      "reason": "get_github_repo({'owner': '666ghj', 'repo': 'MiroFish'})"
+    },
+    {
+      "item_title": "Production query plans without production data",
+      "source": "simon",
+      "tools_called": [
+        "fetch_url"
+      ],
+      "reason": "fetch_url({'url': 'https://simonwillison.net/2026/Mar/9/production-query-plans-without-production-data/#atom-everything'})"
+    },
+    {
+      "item_title": "Perhaps not Boring Technology after all",
+      "source": "simon",
+      "tools_called": [
+        "fetch_url"
+      ],
+      "reason": "fetch_url({'url': 'https://simonwillison.net/2026/Mar/9/not-so-boring/#atom-everything'})"
+    },
+    {
+      "item_title": "Quoting Joseph Weizenbaum",
+      "source": "simon",
+      "tools_called": [
+        "fetch_url"
+      ],
+      "reason": "fetch_url({'url': 'https://simonwillison.net/2026/Mar/8/joseph-weizenbaum/#atom-everything'})"
+    }
+  ],
+  "llm_calls": 2,
+  "total_tokens": 12777,
+  "duration_seconds": 41.40275716781616
+}
