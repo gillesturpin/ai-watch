@@ -1,0 +1,53 @@
+{
+  "date": "2026-03-13",
+  "sources_status": {
+    "huggingface": "ok",
+    "github": "ok",
+    "simon": "ok"
+  },
+  "enrichment": [
+    {
+      "item_title": "msitarzewski/agency-agents",
+      "source": "github",
+      "tools_called": [
+        "get_github_repo"
+      ],
+      "reason": "get_github_repo({'owner': 'msitarzewski', 'repo': 'agency-agents'})"
+    },
+    {
+      "item_title": "microsoft/BitNet",
+      "source": "github",
+      "tools_called": [
+        "get_github_repo"
+      ],
+      "reason": "get_github_repo({'owner': 'microsoft', 'repo': 'BitNet'})"
+    },
+    {
+      "item_title": "666ghj/MiroFish",
+      "source": "github",
+      "tools_called": [
+        "get_github_repo"
+      ],
+      "reason": "get_github_repo({'owner': '666ghj', 'repo': 'MiroFish'})"
+    },
+    {
+      "item_title": "Coding After Coders: The End of Computer Programming as We Know It",
+      "source": "simon",
+      "tools_called": [
+        "fetch_url"
+      ],
+      "reason": "fetch_url({'url': 'https://simonwillison.net/2026/Mar/12/coding-after-coders/#atom-everything'})"
+    },
+    {
+      "item_title": "MALUS - Clean Room as a Service",
+      "source": "simon",
+      "tools_called": [
+        "fetch_url"
+      ],
+      "reason": "fetch_url({'url': 'https://simonwillison.net/2026/Mar/12/malus/#atom-everything'})"
+    }
+  ],
+  "llm_calls": 2,
+  "total_tokens": 12558,
+  "duration_seconds": 44.13491725921631
+}
