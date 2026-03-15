@@ -1,0 +1,45 @@
+{
+  "date": "2026-03-15",
+  "sources_status": {
+    "huggingface": "ok",
+    "github": "ok",
+    "simon": "ok"
+  },
+  "enrichment": [
+    {
+      "item_title": "msitarzewski/agency-agents",
+      "source": "github",
+      "tools_called": [
+        "get_github_repo"
+      ],
+      "reason": "get_github_repo({'owner': 'msitarzewski', 'repo': 'agency-agents'})"
+    },
+    {
+      "item_title": "lightpanda-io/browser",
+      "source": "github",
+      "tools_called": [
+        "get_github_repo"
+      ],
+      "reason": "get_github_repo({'owner': 'lightpanda-io', 'repo': 'browser'})"
+    },
+    {
+      "item_title": "Quoting Jannis Leidel",
+      "source": "simon",
+      "tools_called": [
+        "fetch_url"
+      ],
+      "reason": "fetch_url({'url': 'https://simonwillison.net/2026/Mar/14/jannis-leidel/#atom-everything'})"
+    },
+    {
+      "item_title": "1M context is now generally available for Opus 4.6 and Sonnet 4.6",
+      "source": "simon",
+      "tools_called": [
+        "fetch_url"
+      ],
+      "reason": "fetch_url({'url': 'https://simonwillison.net/2026/Mar/13/1m-context/#atom-everything'})"
+    }
+  ],
+  "llm_calls": 2,
+  "total_tokens": 10773,
+  "duration_seconds": 34.60703229904175
+}
