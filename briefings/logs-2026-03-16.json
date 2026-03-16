@@ -1,0 +1,53 @@
+{
+  "date": "2026-03-16",
+  "sources_status": {
+    "huggingface": "ok",
+    "github": "ok",
+    "simon": "ok"
+  },
+  "enrichment": [
+    {
+      "item_title": "666ghj/MiroFish",
+      "source": "github",
+      "tools_called": [
+        "get_github_repo"
+      ],
+      "reason": "get_github_repo({'owner': '666ghj', 'repo': 'MiroFish'})"
+    },
+    {
+      "item_title": "volcengine/OpenViking",
+      "source": "github",
+      "tools_called": [
+        "get_github_repo"
+      ],
+      "reason": "get_github_repo({'owner': 'volcengine', 'repo': 'OpenViking'})"
+    },
+    {
+      "item_title": "obra/superpowers",
+      "source": "github",
+      "tools_called": [
+        "get_github_repo"
+      ],
+      "reason": "get_github_repo({'owner': 'obra', 'repo': 'superpowers'})"
+    },
+    {
+      "item_title": "What is agentic engineering?",
+      "source": "simon",
+      "tools_called": [
+        "fetch_url"
+      ],
+      "reason": "fetch_url({'url': 'https://simonwillison.net/guides/agentic-engineering-patterns/what-is-agentic-engineering/#atom-everything'})"
+    },
+    {
+      "item_title": "Quoting Jannis Leidel",
+      "source": "simon",
+      "tools_called": [
+        "fetch_url"
+      ],
+      "reason": "fetch_url({'url': 'https://simonwillison.net/2026/Mar/14/jannis-leidel/#atom-everything'})"
+    }
+  ],
+  "llm_calls": 3,
+  "total_tokens": 18301,
+  "duration_seconds": 38.087414503097534
+}
