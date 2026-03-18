@@ -1,0 +1,53 @@
+{
+  "date": "2026-03-18",
+  "sources_status": {
+    "huggingface": "ok",
+    "github": "ok",
+    "simon": "ok"
+  },
+  "enrichment": [
+    {
+      "item_title": "InCoder-32B: Code Foundation Model for Industrial Scenarios",
+      "source": "huggingface",
+      "tools_called": [
+        "search_hf_models"
+      ],
+      "reason": "search_hf_models({'query': 'InCoder-32B'})"
+    },
+    {
+      "item_title": "MiroThinker-1.7 & H1: Towards Heavy-Duty Research Agents via Verification",
+      "source": "huggingface",
+      "tools_called": [
+        "search_hf_models"
+      ],
+      "reason": "search_hf_models({'query': 'MiroThinker-1.7'})"
+    },
+    {
+      "item_title": "obra/superpowers",
+      "source": "github",
+      "tools_called": [
+        "get_github_repo"
+      ],
+      "reason": "get_github_repo({'owner': 'obra', 'repo': 'superpowers'})"
+    },
+    {
+      "item_title": "abhigyanpatwari/GitNexus",
+      "source": "github",
+      "tools_called": [
+        "get_github_repo"
+      ],
+      "reason": "get_github_repo({'owner': 'abhigyanpatwari', 'repo': 'GitNexus'})"
+    },
+    {
+      "item_title": "GPT-5.4 mini and GPT-5.4 nano, which can describe 76,000 photos for $52",
+      "source": "simon",
+      "tools_called": [
+        "fetch_url"
+      ],
+      "reason": "fetch_url({'url': 'https://simonwillison.net/2026/Mar/17/mini-and-nano/#atom-everything'})"
+    }
+  ],
+  "llm_calls": 2,
+  "total_tokens": 11034,
+  "duration_seconds": 44.18971085548401
+}
