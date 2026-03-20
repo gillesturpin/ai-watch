@@ -1,0 +1,45 @@
+{
+  "date": "2026-03-20",
+  "sources_status": {
+    "huggingface": "ok",
+    "github": "ok",
+    "simon": "ok"
+  },
+  "enrichment": [
+    {
+      "item_title": "obra/superpowers",
+      "source": "github",
+      "tools_called": [
+        "get_github_repo"
+      ],
+      "reason": "get_github_repo({'owner': 'obra', 'repo': 'superpowers'})"
+    },
+    {
+      "item_title": "jarrodwatts/claude-hud",
+      "source": "github",
+      "tools_called": [
+        "get_github_repo"
+      ],
+      "reason": "get_github_repo({'owner': 'jarrodwatts', 'repo': 'claude-hud'})"
+    },
+    {
+      "item_title": "Thoughts on OpenAI acquiring Astral and uv/ruff/ty",
+      "source": "simon",
+      "tools_called": [
+        "fetch_url"
+      ],
+      "reason": "fetch_url({'url': 'https://simonwillison.net/2026/Mar/19/openai-acquiring-astral/#atom-everything'})"
+    },
+    {
+      "item_title": "Autoresearching Apple's \"LLM in a Flash\" to run Qwen 397B locally",
+      "source": "simon",
+      "tools_called": [
+        "fetch_url"
+      ],
+      "reason": "fetch_url({'url': 'https://simonwillison.net/2026/Mar/18/llm-in-a-flash/#atom-everything'})"
+    }
+  ],
+  "llm_calls": 2,
+  "total_tokens": 11597,
+  "duration_seconds": 41.12311673164368
+}
