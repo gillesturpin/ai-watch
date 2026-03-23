@@ -1,0 +1,53 @@
+{
+  "date": "2026-03-23",
+  "sources_status": {
+    "huggingface": "ok",
+    "github": "ok",
+    "simon": "ok"
+  },
+  "enrichment": [
+    {
+      "item_title": "affaan-m/everything-claude-code",
+      "source": "github",
+      "tools_called": [
+        "get_github_repo"
+      ],
+      "reason": "get_github_repo({'owner': 'affaan-m', 'repo': 'everything-claude-code'})"
+    },
+    {
+      "item_title": "Crosstalk-Solutions/project-nomad",
+      "source": "github",
+      "tools_called": [
+        "get_github_repo"
+      ],
+      "reason": "get_github_repo({'owner': 'Crosstalk-Solutions', 'repo': 'project-nomad'})"
+    },
+    {
+      "item_title": "bytedance/deer-flow",
+      "source": "github",
+      "tools_called": [
+        "get_github_repo"
+      ],
+      "reason": "get_github_repo({'owner': 'bytedance', 'repo': 'deer-flow'})"
+    },
+    {
+      "item_title": "{'url': 'https://simonwillison.net/2026/Mar/23/beats-now-have-notes/'}",
+      "source": "huggingface",
+      "tools_called": [
+        "fetch_url"
+      ],
+      "reason": "fetch_url({'url': 'https://simonwillison.net/2026/Mar/23/beats-now-have-notes/'})"
+    },
+    {
+      "item_title": "{'url': 'https://simonwillison.net/2026/Mar/22/starlette/'}",
+      "source": "huggingface",
+      "tools_called": [
+        "fetch_url"
+      ],
+      "reason": "fetch_url({'url': 'https://simonwillison.net/2026/Mar/22/starlette/'})"
+    }
+  ],
+  "llm_calls": 2,
+  "total_tokens": 12418,
+  "duration_seconds": 40.49287486076355
+}
