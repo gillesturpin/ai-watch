@@ -1,0 +1,53 @@
+{
+  "date": "2026-03-24",
+  "sources_status": {
+    "huggingface": "ok",
+    "github": "ok",
+    "simon": "ok"
+  },
+  "enrichment": [
+    {
+      "item_title": "affaan-m/everything-claude-code",
+      "source": "github",
+      "tools_called": [
+        "get_github_repo"
+      ],
+      "reason": "get_github_repo({'owner': 'affaan-m', 'repo': 'everything-claude-code'})"
+    },
+    {
+      "item_title": "Crosstalk-Solutions/project-nomad",
+      "source": "github",
+      "tools_called": [
+        "get_github_repo"
+      ],
+      "reason": "get_github_repo({'owner': 'Crosstalk-Solutions', 'repo': 'project-nomad'})"
+    },
+    {
+      "item_title": "bytedance/deer-flow",
+      "source": "github",
+      "tools_called": [
+        "get_github_repo"
+      ],
+      "reason": "get_github_repo({'owner': 'bytedance', 'repo': 'deer-flow'})"
+    },
+    {
+      "item_title": "Streaming experts",
+      "source": "simon",
+      "tools_called": [
+        "fetch_url"
+      ],
+      "reason": "fetch_url({'url': 'https://simonwillison.net/2026/Mar/24/streaming-experts/#atom-everything'})"
+    },
+    {
+      "item_title": "Quoting Neurotica",
+      "source": "simon",
+      "tools_called": [
+        "fetch_url"
+      ],
+      "reason": "fetch_url({'url': 'https://simonwillison.net/2026/Mar/23/neurotica/#atom-everything'})"
+    }
+  ],
+  "llm_calls": 2,
+  "total_tokens": 12353,
+  "duration_seconds": 44.64285898208618
+}
