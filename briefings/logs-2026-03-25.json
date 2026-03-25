@@ -1,0 +1,53 @@
+{
+  "date": "2026-03-25",
+  "sources_status": {
+    "huggingface": "ok",
+    "github": "ok",
+    "simon": "ok"
+  },
+  "enrichment": [
+    {
+      "item_title": "bytedance/deer-flow",
+      "source": "github",
+      "tools_called": [
+        "get_github_repo"
+      ],
+      "reason": "get_github_repo({'owner': 'bytedance', 'repo': 'deer-flow'})"
+    },
+    {
+      "item_title": "Crosstalk-Solutions/project-nomad",
+      "source": "github",
+      "tools_called": [
+        "get_github_repo"
+      ],
+      "reason": "get_github_repo({'owner': 'Crosstalk-Solutions', 'repo': 'project-nomad'})"
+    },
+    {
+      "item_title": "TauricResearch/TradingAgents",
+      "source": "github",
+      "tools_called": [
+        "get_github_repo"
+      ],
+      "reason": "get_github_repo({'owner': 'TauricResearch', 'repo': 'TradingAgents'})"
+    },
+    {
+      "item_title": "Auto mode for Claude Code",
+      "source": "simon",
+      "tools_called": [
+        "fetch_url"
+      ],
+      "reason": "fetch_url({'url': 'https://simonwillison.net/2026/Mar/24/auto-mode-for-claude-code/#atom-everything'})"
+    },
+    {
+      "item_title": "Package Managers Need to Cool Down",
+      "source": "simon",
+      "tools_called": [
+        "fetch_url"
+      ],
+      "reason": "fetch_url({'url': 'https://simonwillison.net/2026/Mar/24/package-managers-need-to-cool-down/#atom-everything'})"
+    }
+  ],
+  "llm_calls": 6,
+  "total_tokens": 38445,
+  "duration_seconds": 41.968939781188965
+}
