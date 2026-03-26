@@ -1,0 +1,37 @@
+{
+  "date": "2026-03-26",
+  "sources_status": {
+    "huggingface": "ok",
+    "github": "ok",
+    "simon": "ok"
+  },
+  "enrichment": [
+    {
+      "item_title": "bytedance/deer-flow",
+      "source": "github",
+      "tools_called": [
+        "get_github_repo"
+      ],
+      "reason": "get_github_repo({'owner': 'bytedance', 'repo': 'deer-flow'})"
+    },
+    {
+      "item_title": "Crosstalk-Solutions/project-nomad",
+      "source": "github",
+      "tools_called": [
+        "get_github_repo"
+      ],
+      "reason": "get_github_repo({'owner': 'Crosstalk-Solutions', 'repo': 'project-nomad'})"
+    },
+    {
+      "item_title": "Thoughts on slowing the fuck down",
+      "source": "simon",
+      "tools_called": [
+        "fetch_url"
+      ],
+      "reason": "fetch_url({'url': 'https://simonwillison.net/2026/Mar/25/thoughts-on-slowing-the-fuck-down/#atom-everything'})"
+    }
+  ],
+  "llm_calls": 2,
+  "total_tokens": 10818,
+  "duration_seconds": 38.13018751144409
+}
