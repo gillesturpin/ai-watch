@@ -1,0 +1,37 @@
+{
+  "date": "2026-03-27",
+  "sources_status": {
+    "huggingface": "ok",
+    "github": "ok",
+    "simon": "ok"
+  },
+  "enrichment": [
+    {
+      "item_title": "Vaibhavs10/insanely-fast-whisper",
+      "source": "github",
+      "tools_called": [
+        "get_github_repo"
+      ],
+      "reason": "get_github_repo({'owner': 'Vaibhavs10', 'repo': 'insanely-fast-whisper'})"
+    },
+    {
+      "item_title": "We Rewrote JSONata with AI in a Day, Saved $500K/Year",
+      "source": "simon",
+      "tools_called": [
+        "fetch_url"
+      ],
+      "reason": "fetch_url({'url': 'https://simonwillison.net/2026/Mar/27/vine-porting-jsonata/#atom-everything'})"
+    },
+    {
+      "item_title": "Quantization from the ground up",
+      "source": "simon",
+      "tools_called": [
+        "fetch_url"
+      ],
+      "reason": "fetch_url({'url': 'https://simonwillison.net/2026/Mar/26/quantization-from-the-ground-up/#atom-everything'})"
+    }
+  ],
+  "llm_calls": 2,
+  "total_tokens": 10588,
+  "duration_seconds": 36.30588746070862
+}
