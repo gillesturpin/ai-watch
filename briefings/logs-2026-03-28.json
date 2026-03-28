@@ -1,0 +1,53 @@
+{
+  "date": "2026-03-28",
+  "sources_status": {
+    "huggingface": "ok",
+    "github": "ok",
+    "simon": "ok"
+  },
+  "enrichment": [
+    {
+      "item_title": "{'query': 'PixelSmile facial expression editing'}",
+      "source": "huggingface",
+      "tools_called": [
+        "search_hf_models"
+      ],
+      "reason": "search_hf_models({'query': 'PixelSmile facial expression editing'})"
+    },
+    {
+      "item_title": "{'query': 'Intern-S1-Pro trillion parameter scientific'}",
+      "source": "huggingface",
+      "tools_called": [
+        "search_hf_models"
+      ],
+      "reason": "search_hf_models({'query': 'Intern-S1-Pro trillion parameter scientific'})"
+    },
+    {
+      "item_title": "mvanhorn/last30days-skill",
+      "source": "github",
+      "tools_called": [
+        "get_github_repo"
+      ],
+      "reason": "get_github_repo({'owner': 'mvanhorn', 'repo': 'last30days-skill'})"
+    },
+    {
+      "item_title": "obra/superpowers",
+      "source": "github",
+      "tools_called": [
+        "get_github_repo"
+      ],
+      "reason": "get_github_repo({'owner': 'obra', 'repo': 'superpowers'})"
+    },
+    {
+      "item_title": "Vibe coding SwiftUI apps is a lot of fun",
+      "source": "simon",
+      "tools_called": [
+        "fetch_url"
+      ],
+      "reason": "fetch_url({'url': 'https://simonwillison.net/2026/Mar/27/vibe-coding-swiftui/#atom-everything'})"
+    }
+  ],
+  "llm_calls": 2,
+  "total_tokens": 10333,
+  "duration_seconds": 35.60061264038086
+}
