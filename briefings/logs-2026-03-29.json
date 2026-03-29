@@ -1,0 +1,45 @@
+{
+  "date": "2026-03-29",
+  "sources_status": {
+    "huggingface": "ok",
+    "github": "ok",
+    "simon": "ok"
+  },
+  "enrichment": [
+    {
+      "item_title": "obra/superpowers",
+      "source": "github",
+      "tools_called": [
+        "get_github_repo"
+      ],
+      "reason": "get_github_repo({'owner': 'obra', 'repo': 'superpowers'})"
+    },
+    {
+      "item_title": "onyx-dot-app/onyx",
+      "source": "github",
+      "tools_called": [
+        "get_github_repo"
+      ],
+      "reason": "get_github_repo({'owner': 'onyx-dot-app', 'repo': 'onyx'})"
+    },
+    {
+      "item_title": "Quoting Matt Webb",
+      "source": "simon",
+      "tools_called": [
+        "fetch_url"
+      ],
+      "reason": "fetch_url({'url': 'https://simonwillison.net/2026/Mar/28/matt-webb/#atom-everything'})"
+    },
+    {
+      "item_title": "Quoting Richard Fontana",
+      "source": "simon",
+      "tools_called": [
+        "fetch_url"
+      ],
+      "reason": "fetch_url({'url': 'https://simonwillison.net/2026/Mar/27/richard-fontana/#atom-everything'})"
+    }
+  ],
+  "llm_calls": 2,
+  "total_tokens": 10540,
+  "duration_seconds": 38.520594120025635
+}
