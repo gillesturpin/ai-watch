@@ -1,0 +1,45 @@
+{
+  "date": "2026-03-31",
+  "sources_status": {
+    "huggingface": "ok",
+    "github": "ok",
+    "simon": "ok"
+  },
+  "enrichment": [
+    {
+      "item_title": "microsoft/VibeVoice",
+      "source": "github",
+      "tools_called": [
+        "get_github_repo"
+      ],
+      "reason": "get_github_repo({'owner': 'microsoft', 'repo': 'VibeVoice'})"
+    },
+    {
+      "item_title": "NousResearch/hermes-agent",
+      "source": "github",
+      "tools_called": [
+        "get_github_repo"
+      ],
+      "reason": "get_github_repo({'owner': 'NousResearch', 'repo': 'hermes-agent'})"
+    },
+    {
+      "item_title": "Quoting Georgi Gerganov",
+      "source": "simon",
+      "tools_called": [
+        "fetch_url"
+      ],
+      "reason": "fetch_url({'url': 'https://simonwillison.net/2026/Mar/30/georgi-gerganov/#atom-everything'})"
+    },
+    {
+      "item_title": "luongnv89/claude-howto",
+      "source": "github",
+      "tools_called": [
+        "get_github_repo"
+      ],
+      "reason": "get_github_repo({'owner': 'luongnv89', 'repo': 'claude-howto'})"
+    }
+  ],
+  "llm_calls": 3,
+  "total_tokens": 16600,
+  "duration_seconds": 47.11819005012512
+}
