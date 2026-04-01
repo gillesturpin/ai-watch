@@ -1,0 +1,61 @@
+{
+  "date": "2026-04-01",
+  "sources_status": {
+    "huggingface": "ok",
+    "github": "ok",
+    "simon": "ok"
+  },
+  "enrichment": [
+    {
+      "item_title": "microsoft/VibeVoice",
+      "source": "github",
+      "tools_called": [
+        "get_github_repo"
+      ],
+      "reason": "get_github_repo({'owner': 'microsoft', 'repo': 'VibeVoice'})"
+    },
+    {
+      "item_title": "obra/superpowers",
+      "source": "github",
+      "tools_called": [
+        "get_github_repo"
+      ],
+      "reason": "get_github_repo({'owner': 'obra', 'repo': 'superpowers'})"
+    },
+    {
+      "item_title": "shanraisshan/claude-code-best-practice",
+      "source": "github",
+      "tools_called": [
+        "get_github_repo"
+      ],
+      "reason": "get_github_repo({'owner': 'shanraisshan', 'repo': 'claude-code-best-practice'})"
+    },
+    {
+      "item_title": "datasette-extract 0.3a0",
+      "source": "simon",
+      "tools_called": [
+        "fetch_url"
+      ],
+      "reason": "fetch_url({'url': 'https://simonwillison.net/2026/Apr/1/datasette-extract/#atom-everything'})"
+    },
+    {
+      "item_title": "datasette-enrichments-llm 0.2a0",
+      "source": "simon",
+      "tools_called": [
+        "fetch_url"
+      ],
+      "reason": "fetch_url({'url': 'https://simonwillison.net/2026/Apr/1/datasette-enrichments-llm/#atom-everything'})"
+    },
+    {
+      "item_title": "datasette-llm-usage 0.2a0",
+      "source": "simon",
+      "tools_called": [
+        "fetch_url"
+      ],
+      "reason": "fetch_url({'url': 'https://simonwillison.net/2026/Apr/1/datasette-llm-usage/#atom-everything'})"
+    }
+  ],
+  "llm_calls": 3,
+  "total_tokens": 18369,
+  "duration_seconds": 47.59191918373108
+}
