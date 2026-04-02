@@ -1,0 +1,53 @@
+{
+  "date": "2026-04-02",
+  "sources_status": {
+    "huggingface": "ok",
+    "github": "ok",
+    "simon": "ok"
+  },
+  "enrichment": [
+    {
+      "item_title": "anthropics/claude-code",
+      "source": "github",
+      "tools_called": [
+        "get_github_repo"
+      ],
+      "reason": "get_github_repo({'owner': 'anthropics', 'repo': 'claude-code'})"
+    },
+    {
+      "item_title": "luongnv89/claude-howto",
+      "source": "github",
+      "tools_called": [
+        "get_github_repo"
+      ],
+      "reason": "get_github_repo({'owner': 'luongnv89', 'repo': 'claude-howto'})"
+    },
+    {
+      "item_title": "openai/codex",
+      "source": "github",
+      "tools_called": [
+        "get_github_repo"
+      ],
+      "reason": "get_github_repo({'owner': 'openai', 'repo': 'codex'})"
+    },
+    {
+      "item_title": "March 2026 sponsors-only newsletter",
+      "source": "simon",
+      "tools_called": [
+        "fetch_url"
+      ],
+      "reason": "fetch_url({'url': 'https://simonwillison.net/2026/Apr/2/march-newsletter/#atom-everything'})"
+    },
+    {
+      "item_title": "datasette-llm 0.1a6",
+      "source": "simon",
+      "tools_called": [
+        "fetch_url"
+      ],
+      "reason": "fetch_url({'url': 'https://simonwillison.net/2026/Apr/1/datasette-llm-2/#atom-everything'})"
+    }
+  ],
+  "llm_calls": 2,
+  "total_tokens": 11810,
+  "duration_seconds": 38.08295297622681
+}
