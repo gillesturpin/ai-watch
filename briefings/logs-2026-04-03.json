@@ -1,0 +1,45 @@
+{
+  "date": "2026-04-03",
+  "sources_status": {
+    "huggingface": "ok",
+    "github": "ok",
+    "simon": "ok"
+  },
+  "enrichment": [
+    {
+      "item_title": "Yeachan-Heo/oh-my-codex",
+      "source": "github",
+      "tools_called": [
+        "get_github_repo"
+      ],
+      "reason": "get_github_repo({'owner': 'Yeachan-Heo', 'repo': 'oh-my-codex'})"
+    },
+    {
+      "item_title": "asgeirtj/system_prompts_leaks",
+      "source": "github",
+      "tools_called": [
+        "get_github_repo"
+      ],
+      "reason": "get_github_repo({'owner': 'asgeirtj', 'repo': 'system_prompts_leaks'})"
+    },
+    {
+      "item_title": "Highlights from my conversation about agentic engineering on Lenny's Podcast",
+      "source": "simon",
+      "tools_called": [
+        "fetch_url"
+      ],
+      "reason": "fetch_url({'url': 'https://simonwillison.net/2026/Apr/2/lennys-podcast/#atom-everything'})"
+    },
+    {
+      "item_title": "Gemma 4: Byte for byte, the most capable open models",
+      "source": "simon",
+      "tools_called": [
+        "fetch_url"
+      ],
+      "reason": "fetch_url({'url': 'https://simonwillison.net/2026/Apr/2/gemma-4/#atom-everything'})"
+    }
+  ],
+  "llm_calls": 2,
+  "total_tokens": 12212,
+  "duration_seconds": 38.399638175964355
+}
