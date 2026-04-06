@@ -1,0 +1,45 @@
+{
+  "date": "2026-04-06",
+  "sources_status": {
+    "huggingface": "ok",
+    "github": "ok",
+    "simon": "ok"
+  },
+  "enrichment": [
+    {
+      "item_title": "onyx-dot-app/onyx",
+      "source": "github",
+      "tools_called": [
+        "get_github_repo"
+      ],
+      "reason": "get_github_repo({'owner': 'onyx-dot-app', 'repo': 'onyx'})"
+    },
+    {
+      "item_title": "block/goose",
+      "source": "github",
+      "tools_called": [
+        "get_github_repo"
+      ],
+      "reason": "get_github_repo({'owner': 'block', 'repo': 'goose'})"
+    },
+    {
+      "item_title": "Blaizzy/mlx-vlm",
+      "source": "github",
+      "tools_called": [
+        "get_github_repo"
+      ],
+      "reason": "get_github_repo({'owner': 'Blaizzy', 'repo': 'mlx-vlm'})"
+    },
+    {
+      "item_title": "Google AI Edge Gallery",
+      "source": "simon",
+      "tools_called": [
+        "fetch_url"
+      ],
+      "reason": "fetch_url({'url': 'https://simonwillison.net/2026/Apr/6/google-ai-edge-gallery/#atom-everything'})"
+    }
+  ],
+  "llm_calls": 2,
+  "total_tokens": 11167,
+  "duration_seconds": 35.73051571846008
+}
