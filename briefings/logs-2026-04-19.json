@@ -1,0 +1,45 @@
+{
+  "date": "2026-04-19",
+  "sources_status": {
+    "huggingface": "ok",
+    "github": "ok",
+    "simon": "ok"
+  },
+  "enrichment": [
+    {
+      "item_title": "RationalRewards: Reasoning Rewards Scale Visual Generation Both Training and Test Time",
+      "source": "huggingface",
+      "tools_called": [
+        "search_hf_models"
+      ],
+      "reason": "search_hf_models({'query': 'RationalRewards'})"
+    },
+    {
+      "item_title": "EvoMap/evolver",
+      "source": "github",
+      "tools_called": [
+        "get_github_repo"
+      ],
+      "reason": "get_github_repo({'owner': 'EvoMap', 'repo': 'evolver'})"
+    },
+    {
+      "item_title": "BasedHardware/omi",
+      "source": "github",
+      "tools_called": [
+        "get_github_repo"
+      ],
+      "reason": "get_github_repo({'owner': 'BasedHardware', 'repo': 'omi'})"
+    },
+    {
+      "item_title": "Changes in the system prompt between Claude Opus 4.6 and 4.7",
+      "source": "simon",
+      "tools_called": [
+        "fetch_url"
+      ],
+      "reason": "fetch_url({'url': 'https://simonwillison.net/2026/Apr/18/opus-system-prompt/#atom-everything'})"
+    }
+  ],
+  "llm_calls": 2,
+  "total_tokens": 10894,
+  "duration_seconds": 36.38951587677002
+}
