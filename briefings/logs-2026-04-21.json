@@ -1,0 +1,53 @@
+{
+  "date": "2026-04-21",
+  "sources_status": {
+    "huggingface": "ok",
+    "github": "ok",
+    "simon": "ok"
+  },
+  "enrichment": [
+    {
+      "item_title": "openai/openai-agents-python",
+      "source": "github",
+      "tools_called": [
+        "get_github_repo"
+      ],
+      "reason": "get_github_repo({'owner': 'openai', 'repo': 'openai-agents-python'})"
+    },
+    {
+      "item_title": "ruvnet/RuView",
+      "source": "github",
+      "tools_called": [
+        "get_github_repo"
+      ],
+      "reason": "get_github_repo({'owner': 'ruvnet', 'repo': 'RuView'})"
+    },
+    {
+      "item_title": "thunderbird/thunderbolt",
+      "source": "github",
+      "tools_called": [
+        "get_github_repo"
+      ],
+      "reason": "get_github_repo({'owner': 'thunderbird', 'repo': 'thunderbolt'})"
+    },
+    {
+      "item_title": "SQL functions in Google Sheets to fetch data from Datasette",
+      "source": "simon",
+      "tools_called": [
+        "fetch_url"
+      ],
+      "reason": "fetch_url({'url': 'https://simonwillison.net/2026/Apr/20/datasette-sql/#atom-everything'})"
+    },
+    {
+      "item_title": "Headless everything for personal AI",
+      "source": "simon",
+      "tools_called": [
+        "fetch_url"
+      ],
+      "reason": "fetch_url({'url': 'https://simonwillison.net/2026/Apr/19/headless-everything/#atom-everything'})"
+    }
+  ],
+  "llm_calls": 2,
+  "total_tokens": 11896,
+  "duration_seconds": 43.20392870903015
+}
