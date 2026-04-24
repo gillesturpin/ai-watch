@@ -1,0 +1,61 @@
+{
+  "date": "2026-04-24",
+  "sources_status": {
+    "huggingface": "ok",
+    "github": "ok",
+    "simon": "ok"
+  },
+  "enrichment": [
+    {
+      "item_title": "LLaDA2.0-Uni: Unifying Multimodal Understanding and Generation with Diffusion Large Language Model",
+      "source": "huggingface",
+      "tools_called": [
+        "search_hf_models"
+      ],
+      "reason": "search_hf_models({'query': 'LLaDA2.0-Uni'})"
+    },
+    {
+      "item_title": "Alishahryar1/free-claude-code",
+      "source": "github",
+      "tools_called": [
+        "get_github_repo"
+      ],
+      "reason": "get_github_repo({'owner': 'Alishahryar1', 'repo': 'free-claude-code'})"
+    },
+    {
+      "item_title": "zilliztech/claude-context",
+      "source": "github",
+      "tools_called": [
+        "get_github_repo"
+      ],
+      "reason": "get_github_repo({'owner': 'zilliztech', 'repo': 'claude-context'})"
+    },
+    {
+      "item_title": "huggingface/ml-intern",
+      "source": "github",
+      "tools_called": [
+        "get_github_repo"
+      ],
+      "reason": "get_github_repo({'owner': 'huggingface', 'repo': 'ml-intern'})"
+    },
+    {
+      "item_title": "DeepSeek V4 - almost on the frontier, a fraction of the price",
+      "source": "simon",
+      "tools_called": [
+        "fetch_url"
+      ],
+      "reason": "fetch_url({'url': 'https://simonwillison.net/2026/Apr/24/deepseek-v4/#atom-everything'})"
+    },
+    {
+      "item_title": "Millisecond Converter",
+      "source": "simon",
+      "tools_called": [
+        "fetch_url"
+      ],
+      "reason": "fetch_url({'url': 'https://simonwillison.net/2026/Apr/24/milliseconds/#atom-everything'})"
+    }
+  ],
+  "llm_calls": 2,
+  "total_tokens": 12626,
+  "duration_seconds": 48.702125549316406
+}
