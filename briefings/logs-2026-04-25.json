@@ -1,0 +1,45 @@
+{
+  "date": "2026-04-25",
+  "sources_status": {
+    "huggingface": "ok",
+    "github": "ok",
+    "simon": "ok"
+  },
+  "enrichment": [
+    {
+      "item_title": "huggingface/ml-intern",
+      "source": "github",
+      "tools_called": [
+        "get_github_repo"
+      ],
+      "reason": "get_github_repo({'owner': 'huggingface', 'repo': 'ml-intern'})"
+    },
+    {
+      "item_title": "Alishahryar1/free-claude-code",
+      "source": "github",
+      "tools_called": [
+        "get_github_repo"
+      ],
+      "reason": "get_github_repo({'owner': 'Alishahryar1', 'repo': 'free-claude-code'})"
+    },
+    {
+      "item_title": "GPT-5.5 prompting guide",
+      "source": "simon",
+      "tools_called": [
+        "fetch_url"
+      ],
+      "reason": "fetch_url({'url': 'https://simonwillison.net/2026/Apr/25/gpt-5-5-prompting-guide/#atom-everything'})"
+    },
+    {
+      "item_title": "The people do not yearn for automation",
+      "source": "simon",
+      "tools_called": [
+        "fetch_url"
+      ],
+      "reason": "fetch_url({'url': 'https://simonwillison.net/2026/Apr/24/the-people-do-not-yearn-for-automation/#atom-everything'})"
+    }
+  ],
+  "llm_calls": 2,
+  "total_tokens": 11479,
+  "duration_seconds": 41.90095806121826
+}
